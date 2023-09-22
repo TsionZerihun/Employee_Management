@@ -55,7 +55,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The employee management Dashboard is used to  
-* add, remove,update, and delete employees based on employment status
+* Add, remove, update, and delete employees based on employment status
 * Assign and track different tasks given to employees
 * Enable Employees to connect, chat, and update each other via the chat option
 * Share events and newsletter for all employees
