@@ -1,152 +1,101 @@
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/TsionZerihun/Employee_Management">
-
-   <!--  <img src="media/images/logo.png" alt="Logo" width="80" height="80">-->
+<p align="center" style="margin-bottom: 32px">
+  <a href="https://erdkse.com" >
+    <img src="https://raw.githubusercontent.com/erdkse/adminlte-3-react/main/public/img/logo.png" alt="AdminLTE logo" width="75" height="75">
   </a>
+</p>
 
-  <h3 align="center">Employee_Management</h3>
+<h1 align="center">Admin LTE 3.2.0 - React 18.2.0 (with experimental features)</h1>
 
-  <p align="center">
-    Employee Management Dashboard 
-    <br />
-    <a href="https://github.com/TsionZerihun/Employee_Management"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/TsionZerihun/Employee_Managemente">View Demo</a>
-    ·
-    <a href="https://github.com/TsionZerihun/Employee_Management">Report Bug</a>
-    ·
-    <a href="https://github.com/TsionZerihun/Employee_Management">Request Feature</a>
-  </p>
-</div>
+<p>
+  This repository is a form of original AdminLTE project. It is aim to use AdminLTE template with React.
+</p>
+<br>
 
+<span align="center">
 
+[![Run on Repl.it](https://repl.it/badge/github/erdkse/adminlte-3-react)](https://repl.it/github/erdkse/adminlte-3-react)
+![Vercel](https://img.shields.io/github/deployments/erdkse/adminlte-3-react/production.svg?logo=vercel&label=vercel)
+![Issues](https://img.shields.io/github/issues/erdkse/adminlte-3-react)
+![Forks](https://img.shields.io/github/forks/erdkse/adminlte-3-react)
+![Stars](https://img.shields.io/github/stars/erdkse/adminlte-3-react)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+![GitHub last commit](https://img.shields.io/github/last-commit/erdkse/adminlte-3-react.svg)
+[![License](https://img.shields.io/github/license/erdkse/adminlte-3-react.svg)](LICENSE)
+![Sponsors](https://img.shields.io/github/sponsors/erdkse.svg)
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+</span>
 
+<br>
 
+To login website use:
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+`username:` @mkportal@eotcmk.org<br />
+`password:` mkportal<br />
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Available Scripts
 
-The employee management Dashboard is used to  
-* Add, remove, update, and delete employees based on employment status
-* Assign and track different tasks given to employees
-* Enable Employees to connect, chat, and update each other via the chat option
-* Share events and newsletter for all employees
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+In the project directory, you can run:
 
+### `npm run start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Built With
-* [![React][React.js]][React-url]
-* [![DOTNET][DOTNET]][DOTNET-url]
-* [![Express][Express]][Express-url]
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-<!-- GETTING STARTED -->
-## Getting Started
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Clone/pull/download this repository
-2.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
-<!-- ROADMAP -->
-## Roadmap
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [x] Add cards
-- [x] Add pictures and descriptions to cards
-- [ ] Add peer-to-peer learning option
-- [ ] Add audio
-- [ ] Multi-language Support
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-<!-- CONTRIBUTING -->
+### Making a Progressive Web App
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
+### Advanced Configuration
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-<!-- LICENSE -->
+### Deployment
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### `npm run build` fails to minify
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-<!-- CONTACT -->
-## Contact
-
-Tsion - [@website](http://tsi-on.tech)
-Email - tsion902@gmail.com
-
-Project Link: [https://github.com/TsionZerihun/Employee_Management](https://github.com/TsionZerihun/Employee_Management)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-url]: https://github.com/TsionZerihun/Employee_Management
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: media/amharic1.PNG
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[DOTNET]: https://img.shields.io/badge/DOTNET-20232A?style=for-the-badge&logo=.NET&logoColor=61DAFB
-[DOTNET-url]: [https://reactjs.org/](https://dotnet.microsoft.com/en-us/)
-[React-url]: https://reactjs.org/
-[Django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
-[Django-url]: https://www.djangoproject.com/
-[Express]: https://img.shields.io/badge/Express.js-35495E?style=for-the-badge&logo=Express&logoColor=4FC08D
-[Express-url]: https://expressjs.com/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
